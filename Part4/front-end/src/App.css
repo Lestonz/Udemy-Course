@@ -1,0 +1,145 @@
+.app {
+  display: flex;
+  height: 50rem;
+  margin: auto;
+  flex-direction: row;
+  background-image: linear-gradient(to right bottom, #797bd8, #0098d8, #00a7b4, #69ac91, #a1ad89);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.app-img-container {
+  width: 380px;
+  height: 380px;
+  margin-left: 0;
+  margin-right: 100px;
+}
+
+.img-box {
+  height: 350px;
+  width: 350px;
+  border-radius: 30px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-title {
+  font-size: 36px;
+  text-align: center;
+}
+
+.text-body {
+  font-size: large;
+}
+
+.name-box {
+  width: 350px;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  border: 5.0px solid #797bd8;
+  border-radius: 20px;
+}
+
+.mint-container {
+  display: flex;
+  width: 350px;
+  height: 70px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mint-button {
+  text-decoration: none;
+  width: 140px;
+  height: 50px;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  background-color: #797bd8;
+  border: 5.0px solid #797bd8;
+  border-radius: 20px;
+}
+
+.mint-button:hover{
+  color: #797bd8;
+  background-color: #fff;
+}
+
+.mint-control {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.mint-decr {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: 44px;
+  color: #fff;
+  background-color: #797bd8;
+  margin: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+
+}
+
+.mint-incr {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: 44px;
+  color: #fff;
+  background-color: #797bd8;
+  margin: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+.mint-text {
+  display: flex;
+  font-size: 24px;
+  font-weight: bold;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.connect-button {
+  display: flex;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #797bd8;
+  border: 5.0px solid #797bd8;
+}
+
+.connect-button:hover {
+  color: #797bd8;
+  background-color: #fff;
+}

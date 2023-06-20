@@ -1,0 +1,31 @@
+{
+    "name": "Full Home Painted #5",
+    "description": "This Home Comes from Sweetty by Paint",
+    "image": "ipfs://QmZWhX4D8Z9ad7HA6Qw2APLZBrUbz8wtwstE9ChzVpYr8r/5.png",
+    "dna": "9774b49af5079a4b59234fde2f82a50898501f31",
+    "edition": 5,
+    "date": 1650029741218,
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Home",
+            "value": "Pink"
+        },
+        {
+            "trait_type": "Roof",
+            "value": "Orange"
+        },
+        {
+            "trait_type": "Window",
+            "value": "Red"
+        },
+        {
+            "trait_type": "Door",
+            "value": "Yellow"
+        }
+    ],
+    "compiler": "Lestonz Art Engine"
+}

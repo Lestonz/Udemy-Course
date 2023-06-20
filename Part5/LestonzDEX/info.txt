@@ -1,0 +1,7 @@
+Your Reward Token Address:  0x7146B574D020E8509FEe65853ebC275F57a72115
+
+Lestonz DEX contract address:  0xd95079E866baE1fecc3dF7a3B59b5459b6Ebb2A5
+
+npx hardhat verify 0x7146B574D020E8509FEe65853ebC275F57a72115 --network truffle
+
+npx hardhat verify 0xd95079E866baE1fecc3dF7a3B59b5459b6Ebb2A5 --network truffle contracts/LestonzDEX.sol:LestonzDex  --constructor-args config/ContractArg.ts
