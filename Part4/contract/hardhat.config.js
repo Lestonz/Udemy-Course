@@ -2,7 +2,7 @@ require("@nomicfoundation/hardhat-toolbox");
 require("@nomiclabs/hardhat-etherscan");
 
 /** @type import('hardhat/config').HardhatUserConfig */
-const API = "ANPEWTPNP5R2WWUCXC91HV52GV7BN645TS";
+const API = "YOUR_ETHERSCAN_ID";
 const DEFAULT_GAS =1;
 
 module.exports = {

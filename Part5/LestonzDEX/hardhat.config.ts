@@ -1,7 +1,7 @@
 import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
 
-const API:any = "ANPEWTPNP5R2WWUCXC91HV52GV7BN645TS";
+const API:any = "YOUR_ETHERSCAN_ID";
 const DEFAULT_GAS: number = 1 ;
 
 const config: HardhatUserConfig = {

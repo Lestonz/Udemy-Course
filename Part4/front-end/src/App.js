@@ -19,7 +19,7 @@ function App() {
   const [mintAmount, setMintAmount] = useState(1);
   const [mintPrice, setMintPrice] = useState(0);
 
-  const web3 = new Web3 ( Web3.givenProvider || "https://sepolia.infura.io/v3/0d381a998b1e418f98ef69b7b3d29ed5");
+  const web3 = new Web3 ( Web3.givenProvider || "https://sepolia.infura.io/v3/your_infura_id");
 
   const mintAmountDecr = () => {
     setMintAmount(e => Math.max(1, e-1));

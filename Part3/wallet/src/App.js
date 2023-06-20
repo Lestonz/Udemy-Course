@@ -10,7 +10,7 @@ function App() {
   const [amount, setAmount] = useState();
   const [reciever, setReciever] = useState("");
 
-  const web3 = new Web3 ( Web3.givenProvider || "https://sepolia.infura.io/v3/0d381a998b1e418f98ef69b7b3d29ed5")
+  const web3 = new Web3 ( Web3.givenProvider || "https://sepolia.infura.io/v3/your_infura_ıd")
 
   const connectWallet = async () => {
     if(window.ethereum) {
